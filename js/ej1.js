@@ -6,9 +6,10 @@ function crearNumero(){
     console.log(numeroNuevo)
 
     
-     let numeroUsuario = document.getElementById("usuarioNumero").value;
- 
-
+      let numeroUsuario = document.getElementById("usuarioNumero").value;
+      console.log(numeroUsuario)
+   
+   
    if(numeroNuevo === numeroUsuario){
       alert("GANASTE!!! el numero que ingresaste es igual que el GANADOR")
    }else if (numeroNuevo > numeroUsuario){
@@ -16,11 +17,8 @@ function crearNumero(){
    }else{
      alert("El numero que ingresaste es mayor al GANADOR")
    }
-
-    
+ }
  
-
-}
 
 
 
